@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="main.css">
-    </head>
-    <body>
-        Hello worlds! I made a change.
-    </body>
-</html>
+body {
+    background-color: gray;
+}
