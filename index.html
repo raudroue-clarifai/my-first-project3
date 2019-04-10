@@ -2,10 +2,22 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="flexboxgrid.min.css">
     </head>
-    <body>
-        <div id="modal">
-            Hello worlds! I made a change. Update again
-        </div>
+    <body>  
+    	<div class="row center-xs">
+    		<div id="modal" class="row start-xs col-xs-12 col-sm-12 col-md-6">
+                <h2 class="col-xs-12">Create new model</h2>
+                <form class="col-xs-12">
+                    <span class="form-label">Model name</span><br>
+                    <input class="form" type="text" name="Test-Form" placeholder="e.g. Cats, Plans, Styles, etc."><br>
+                </form>
+                <div class="row end-lg col-xs-12 bottom-xs">
+                    <div class="link col-xs-12 col-sm-4 last-xs first-sm center-xs start-sm">Skip this step</div>
+                    <div class="button-regressive col-xs-12 col-sm">back</div>
+                    <div class="button-progressive col-xs-12 col-sm">next</div></div></div>
+        	   </div>
+            </div> 
+        </div>      
     </body>
 </html>
